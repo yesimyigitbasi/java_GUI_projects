@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+#top-container {
+min-height:100px;
+height:auto;
+}
+
+.logo{
+height:100px;
+padding:5px;
+text-align:center;
+float:left;
+}
+
+.menu{
+height:100px;
+line-height:100px;
+text-align:center;
+float:left;
+border-left: solid 1px red;
+}
+
+.menu a{
+color:#333333;
+text-decoration:none;
+}
+
+.menu a:hover{
+color:red;
+text-decoration:overline;
+}
+
+#slider-container {
+height:400px;
+background-image: url("images/slider.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#slider-about {
+height:400px;
+background-image: url("images/about.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#slider-contact {
+height:400px;
+background-image: url("images/contact.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#slider-portfolio {
+height:400px;
+background-image: url("images/portfolio.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#content-container {
+height:280px;
+height:auto;
+}
+
+.content-box {
+float:left;
+border-left: dotted 3px red;
+overflow:hidden;
+font-size:13px;
+text-align:center;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+#footer-container {
+line-height:50px;
+background-color:black;
+color:#ffffff;
+font-size: 11px;
+}
+
+.footer-content{
+text-align:center;
+}
