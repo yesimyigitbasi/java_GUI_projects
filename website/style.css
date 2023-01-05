@@ -1,89 +1,89 @@
 @charset "UTF-8";
 
 #top-container {
-min-height:100px;
-height:auto;
+    min-height:100px;
+    height:auto;
 }
 
-.logo{
-height:100px;
-padding:5px;
-text-align:center;
-float:left;
+.logo {
+    height:100px;
+    padding:5px;
+    text-align:center;
+    float:left;
 }
 
-.menu{
-height:100px;
-line-height:100px;
-text-align:center;
-float:left;
-border-left: solid 1px red;
+.menu {
+    height:100px;
+    line-height:100px;
+    text-align:center;
+    float:left;
+    border-left: solid 1px purple;
 }
 
-.menu a{
-color:#333333;
-text-decoration:none;
+.menu a {
+    color:#333333;
+    text-decoration:none;
 }
 
-.menu a:hover{
-color:red;
-text-decoration:overline;
+.menu a:hover {
+    color: purple;
+    text-decoration:overline;
 }
 
 #slider-container {
-height:400px;
-background-image: url("images/slider.png");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    height:400px;
+    background-image: url("https://i.pinimg.com/originals/8a/9e/f0/8a9ef062eb43b48b92801c2613c581db.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #slider-about {
-height:400px;
-background-image: url("images/about.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-#slider-contact {
-height:400px;
-background-image: url("images/contact.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    height:400px;
+    background-image: url("https://parispeaceforum.org/wp-content/uploads/2021/10/NET-ZERO-SPACE-INITIATIVE-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #slider-portfolio {
-height:400px;
-background-image: url("images/portfolio.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    height:400px;
+    background-image: url("https://cdn.ttgtmedia.com/rms/onlineimages/code_g1019737194.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#content-container {
-height:280px;
-height:auto;
+#slider-contact {
+    height:400px;
+    background-image: url("https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/07/23090714/nature-1024x682.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content-container {    
+    height:280px;
+    height:auto;
 }
 
 .content-box {
-float:left;
-border-left: dotted 3px red;
-overflow:hidden;
-font-size:13px;
-text-align:center;
-margin-top:20px;
-margin-bottom:20px;
+    float:left;
+    border-left: dotted 3px purple;
+    overflow:hidden;
+    font-size:13px;
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
 #footer-container {
-line-height:50px;
-background-color:black;
-color:#ffffff;
-font-size: 11px;
+    line-height:50px;
+    background-color: plum;
+    color:#ffffff;
+    font-size: 11px;
 }
 
-.footer-content{
-text-align:center;
+.footer-content {
+    text-align:center;
 }
